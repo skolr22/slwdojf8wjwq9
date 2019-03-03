@@ -1,0 +1,170 @@
+/*========================================================================================================================
+*
+*Responsive Style For Medium Devices 600 x 900
+*
+=========================================================================================================================*/
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+/*=================================
+Header 
+=================================*/
+#logo img {
+    height: auto;
+    max-width: 100%;
+}
+
+header {
+    height: 400px;
+    padding: 155px 0px;
+}
+
+header p {
+    font-size: 2.5em;
+}
+
+header h2 {
+    font-size: 4em;
+}
+
+/*=================================
+Countdown
+=================================*/
+
+.r-wrap {
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.countdown li {
+    margin: auto;
+    float: none;
+    display: inline-block;
+}
+
+#time {
+    height: auto;
+}
+
+/*=================================
+Subscribe
+=================================*/
+.b-wrap {
+    width: 70%;
+}
+
+
+
+#secform {
+    width: 80%;
+}
+
+#subtext {
+    min-width: 30%;
+    width: 50%;
+}
+
+/*=================================
+Team
+=================================*/
+
+#team {
+    height: auto;
+    width: 100%;
+}
+
+#te-wrap {
+    height: auto;
+    width: 80%;
+    margin: 0px auto
+}
+
+.persons {
+    min-height: 200px;
+    width: 100%;
+    margin: 25px;
+    float: none;
+}
+
+.light-photo {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.light-photo img {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.light-social   {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    background: #60D8F0;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 0.0;
+}
+
+.light-social ul  {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    list-style: none;
+}
+
+.light-social li  {
+    display: inline;
+}
+
+.light-social i  {
+    margin: 40% 0px 0px 0px;
+    text-align: center;
+    padding: 3px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.persons h4 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.persons h5 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.persons p {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/*=================================
+Media
+=================================*/
+
+#m-wrap {
+    max-width: 90%;
+}
+
+#m-wrap iframe {
+    max-height: 60%;
+    width: 100%;
+}
+
+#credits {
+    width: 100%;
+    font-size: 1em;
+}

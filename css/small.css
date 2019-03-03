@@ -1,0 +1,122 @@
+/*========================================================================================================================
+*
+*Responsive Style For Small Devices 
+*
+=========================================================================================================================*/
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+/*=================================
+Header 
+=================================*/
+#logo img {
+    height: auto;
+    max-width: 100%;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+/*=================================
+Countdown
+=================================*/
+
+.r-wrap {
+    height: auto;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.countdown li {
+    margin: auto;
+    float: none;
+    display: inline-block;
+}
+
+#time {
+    height: auto;
+}
+/*=================================
+Subscribe
+=================================*/
+#subscribe {
+	height: auto;
+	width: 100%;
+    
+}
+
+.b-wrap {
+    width: 100%;
+}
+
+.b-title {
+    font-size: 1.6em;
+}
+
+#secform    {
+    height: auto;
+    width: 80%;
+}
+
+#subtext {
+    width: 100%;
+}
+#subbutton  {
+    width: 100%;
+    clear: both;
+}
+
+/*=================================
+Team
+=================================*/
+#team {
+    height: auto;
+    width: 100%;
+}
+
+.r-title {
+    font-size: 1.6em;
+}
+
+#te-wrap    {
+    height: auto;
+    width: 100%;
+}
+
+.persons    {
+    max-width: 80% !important;
+    margin: 45px auto;
+    float: none;
+ }
+
+.light-photo {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+/*=================================
+Media
+=================================*/
+
+#m-wrap {
+    max-width: 90%;
+}
+
+#m-wrap iframe {
+    max-height: 60%;
+    width: 100%;
+}
+
+#credits {
+    width: 100%;
+    font-size: 1em;
+}

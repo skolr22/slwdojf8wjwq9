@@ -1,0 +1,332 @@
+/*============================================================================================================================
+Main style 
+Author  : Mohamed Youssouf
+Email   : bixeliocontact@gmail.com
+website : www.bixelio.blogspot.com
+============================================================================================================================*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+body { 
+	font-family: 'JF Flat Regular';
+    direction: rtl;
+	background: url('../img/bg.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+#main {
+	height: auto;
+	width: 100%;
+}
+
+header {
+    height: 380px;
+	width: 100%;
+	min-height: 350px;
+	background: url('../img/header-img.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h2 {
+    font-size: 4em;
+    
+}
+
+header p {
+    font-size: 2em;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.rows {
+    padding: 80px 0px;
+	background: #FFFEFE;
+	text-align: center;
+    overflow: hidden;
+    clear: both;
+}
+
+.r-title {
+    margin: 10px 0px 80px 0px;
+    font-size: 30px;
+    color: #434343;
+}
+#time {
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.r-wrap {
+	height: 100%;
+	width: 57%;
+    min-width: 57%;
+	margin: 0px auto;
+    display: inline;
+}
+
+.countdown {
+    display: inline-block;
+}
+
+.countdown ul  {
+    list-style-type: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.countdown li  {
+    height: 168px;
+    width: 166px;
+    margin: 17px 15px 0 5px;
+    padding: 0px;
+    background: url("../img/circle.png") no-repeat;
+    float: left;
+    overflow: hidden;
+}
+
+.countdown span  {
+    height: 5px;
+    width: 5px;
+	margin: 0px;
+    padding: 0px;
+	color: #fff;
+	font-size: 48px;
+    position: relative;
+    top: 40px;
+}
+
+.black-trans {
+    padding: 60px 0px;
+    background: rgba(0, 0, 0, 0.71);
+    overflow: hidden;
+}
+
+#subscribe {
+	height: 300px;
+	width: 100%;
+}
+
+.b-wrap {
+    height: 200px;
+    width: 60%;
+    margin: 60px auto
+}
+
+.b-title {
+    margin: 5px 0 5px 0;
+    color: #fff;
+    font-size: 27px;
+    font-weight: normal;
+    text-align: center;
+    direction: ltr;
+}
+
+.b-parag {
+    margin: 12px 0 5px 0;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#secform {
+    margin: 20px auto;
+    padding: 10px;
+    height: 45px;
+    width: 65%;
+    background: rgba(172, 172, 172, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+
+#sub {
+}
+
+#subbutton {
+    padding: 6px 40px;
+    background: #FF0036;
+    color: #fff;
+    font-family: 'JF Flat';
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    float: left;
+}
+
+#subbutton:hover {
+    background: #13c2e2;
+    color: #fff;
+}
+
+#subtext {
+    height: 36px;
+    width: 365px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0);
+    color: #a0a0a0;
+    vertical-align: top;
+    font-family: 'JF Flat';
+    font-size: 20px;
+    text-align: right;
+}
+
+#team {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#te-wrap {
+    height: 400px;
+    width: 1036px;
+    margin: 0px auto
+}
+
+.persons {
+    min-height: 200px;
+    width: 320px;
+    margin: 0px 0px 0px 25px;
+    float: right;
+}
+
+.light-photo {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.light-photo img {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.light-social   {
+    height: 120px;
+    width: 120px;
+    margin: 0px auto;
+    background: #5FD8F0;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 0.0;
+}
+
+.light-social ul  {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    list-style: none;
+}
+
+.light-social li  {
+    display: inline;
+}
+
+.light-social i  {
+    margin: 40% 0px 0px 0px;
+    text-align: center;
+    padding: 3px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.persons h4 {
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+}
+
+.persons h5 {
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.persons p {
+    color: gray;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 29px;
+}
+
+#multimedia {
+    height: 650px;
+    width: 100%;  
+}
+
+#m-wrap {
+    height: auto;
+    width: 740px;
+    max-width: 740px;
+    margin: 100px auto;
+}
+
+#footer {
+    height: 350px;
+    width: 100%;
+    padding-bottom: 0px;
+    color: #434343;
+}
+
+#social {
+        display: inline;
+}
+
+#social a {
+    text-align: center;
+}
+
+#social i {
+    height: 25px;
+    width: 25px;
+    margin: auto 6px;
+    padding: 20px;
+    background: #5FD8F0;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #5FD8F0;
+    border-radius: 50%;
+}
+
+#social i:hover {
+    background: #fff;
+    color: #5FD8F0;
+    border: 2px solid #5FD8F0;
+}
+
+#credits    {
+    width: 415px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+#credits a {
+
+    color: #5FD8F0;
+    text-decoration: none;
+}

@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>واجهة إفتتاح</title>
+		<meta charset="UTF-8"/>
+        <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+        
+        <!-- Meta Tags -->
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+
+        <!-- Font Awesome -->
+        <link href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'/>
+        <!-- JF Flat -->
+        <link href="font/font.css" type="text/css" rel="stylesheet" />
+        <!-- Main Style -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <!-- Responsive Design for Small Devices  -->
+        <link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (min-width: 320px) and (max-width: 600px)"/>
+        <!-- Responsive Design for Medium Devices  -->
+        <link rel="stylesheet" type="text/css" href="css/mediuem.css" media="screen and (min-width: 600px) and (max-width: 900px)"/>
+        <!-- Responsive Design for large Devices  -->
+        <link rel="stylesheet" type="text/css" href="css/largest.css" media="screen and (min-width: 900px) and (max-width: 1330px)"/>
+		<!-- JQuery -->
+        <script type='text/javascript' src='js/jquery.js'></script>
+        <!-- JQuery Countdown Plugin -->
+		<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+		<script type="text/javascript">
+ 		$(document).ready(function() { 
+            // Replace "2014/11/25" with your opening date.
+			$('.countdown').countdown('2019/12/25', function(event) {
+			$(this).html(event.strftime('<ul><li><span>%D</span></li><li><span>%H</span></li><li><span>%M</span></li><li><span>%S</span></li><ul>'));
+			});
+            
+            $(".light-social").mouseenter(function(){
+            $(this).animate({opacity:'0.9'},100);
+            });
+            $(".light-social").mouseleave(function(){
+            $(this).animate({opacity:'0.0'},100);
+            });
+		});
+		</script>
+	</head>
+	<body>
+		<div id='main'>
+<!--========================== Start Header Section ==============================================-->
+		<header>
+            <div id="logo"><img src="img/logo.png"></img></div>
+            <h2>مرحبا بكم</h2>
+            <p>واجهة إفتتاح قالب html لمواقع طور الإنشاء</p>
+        </header>
+<!--========================== End Header Section ==============================================-->
+
+<!--========================== Start Countdown Section ==============================================-->
+		<section class='rows' id='time'>
+			<div class='r-wrap'>
+				<div class='countdown'></div>
+			</div>
+		</section>
+<!--========================== End Countdown Section ==============================================-->
+
+<!--========================== Start Subscribe Section ==============================================-->
+		<section class='black-trans' id='subscribe'>
+            <div class="b-wrap">
+                <h4 class="b-title">!كن أول من يعلم بإنطلاقتنا</h4>
+                <p class="b-parag">سجل بريدك الإلكتروني لتحصل على أخر تحديثاتنا</p>
+                <div id="secform">
+                    <form id="sub" action="#" method="POST">
+                        <input id="subtext" type="email" placeholder="أدخل بريدك الإلكتروني "/>
+                        <input id="subbutton" type="submit" name="sub" value="أشترك" />
+                    </form>
+                </div>
+            </div>
+        </section>
+<!--========================== End Subscribe Section ==============================================-->
+
+<!--========================== Start Team Section ==============================================-->
+        <section class="rows" id="team">
+            <div id="te-wrap">
+                <h4 class="r-title">فريق العمل</h4>
+                <!-- Person Num 1 -->
+                <div class="persons">
+                    <div class="light-photo">
+                        <div class="light-social">
+                            <ul>
+                                <li><a href='#'><i class="fa fa-facebook"></i></a></li>
+                                <li><a href='#'><i class="fa fa-twitter"></i></a></li>
+                                <li><a href='#'><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href='#'><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    <img src="img/user.png"></img>
+                    </div>
+                    <h4>اسم المصمم</h4>
+                    <h5>مصمم قوالب</h5>
+                    <p>
+ هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق، إذا كنت تحتاج إلى عدد أكبر
+                    </p>
+                </div>
+                <!-- Person Num 2 -->
+                <div class="persons">
+                    <div class="light-photo">
+                        <div class="light-social">
+                            <ul>
+                                <li><a href='#'><i class="fa fa-facebook"></i></a></li>
+                                <li><a href='#'><i class="fa fa-twitter"></i></a></li>
+                                <li><a href='#'><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href='#'><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    <img src="img/user.png"></img>
+                    </div>
+                    <h4>اسم المصمم</h4>
+                    <h5>مصمم قوالب</h5>
+                    <p>
+ هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق، إذا كنت تحتاج إلى عدد أكبر
+                    </p>
+                </div>
+                <!-- Person Num 3 -->
+                <div class="persons">
+                    <div class="light-photo">
+                        <div class="light-social">
+                            <ul>
+                                <li><a href='#'><i class="fa fa-facebook"></i></a></li>
+                                <li><a href='#'><i class="fa fa-twitter"></i></a></li>
+                                <li><a href='#'><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href='#'><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    <img src="img/user.png"></img>
+                    </div>
+                    <h4>اسم المصمم</h4>
+                    <h5>مصمم قوالب</h5>
+                    <p>
+ هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق، إذا كنت تحتاج إلى عدد أكبر
+                    </p>
+                </div>
+
+            </div>
+        </section>
+<!--========================== End Team Section ==============================================-->
+
+<!--========================== Start Multimedia Section ======================================-->
+        <section class="black-trans" id="multimedia">
+            <div id="m-wrap">
+                <!-- Here Add your Video -->
+                <iframe width="740" height="460" src="//www.youtube.com/embed/2a7uSqUBHs0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+<!--========================== End Multimedia Section =========================================-->
+
+<!--========================== Start Footer Section ===========================================-->
+        <section class="rows" id="footer">
+            <h4 class="r-title">تواصل معنا</h4>
+            <nav id="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+            </nav>
+            
+            <div id="credits">
+                واجهة إفتتاح : <script type='text/javascript'>var creditsyear = new Date();document.write(creditsyear.getFullYear());</script>
+            </div>
+        </section>
+<!--========================== End Footer Section ===========================================-->
+		</div>
+	</body>
+</html>
